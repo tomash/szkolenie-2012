@@ -1,7 +1,8 @@
 [
   {"section":"intro"},
-  //{"section":"ruby1"},
-  //{"section":"ruby2"},
+  {"section":"ruby"},
+  {"section":"rails"},
+  {"section":"firstapp"},
   //{"section":"ruby_software"},
   {"section":"outro"}
 ]
