@@ -5,5 +5,5 @@
 ## język zorientowany
 ## na programistę
 ### Tomek "Tomash" Stachewicz
-#### Szkolenie Ruby On Rails, 2010-03-23
+#### Szkolenie Ruby On Rails, 2012-04-19
 ## 

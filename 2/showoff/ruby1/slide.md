@@ -6,10 +6,10 @@
 
 # Ruby jest:
 
-* wolny -- jeden z najwolniejszych na świecie
-* bez kompilatora -- błędy dopiero at-runtime                                                            
+* wolny: jeden z najwolniejszych na świecie
+* bez kompilatora: błędy dopiero at-runtime                                                            
 * bez sprawdzania typów
-* bez IDE -- brak podpowiadania składni
+* bez IDE: brak podpowiadania składni
 
 !SLIDE
 
@@ -69,11 +69,12 @@
 * i funkcyjny zarazem
 
 
+
 !SLIDE
 
 # Proof or GTFO!
 
-## IRb -- Interactive Ruby
+## IRb: Interactive Ruby
 
 ### Konsola REPL dla języka Ruby
 

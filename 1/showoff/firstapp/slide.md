@@ -23,7 +23,8 @@ http://guides.rubyonrails.org/getting_started.html
 
 !SLIDE command
 
-    rails generate scaffold Post title:string content:text
+    rails generate scaffold Post \
+      title:string content:text
 
 
 !SLIDE

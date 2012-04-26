@@ -1,11 +1,31 @@
 !SLIDE bullets incremental
 
+# Co jest niefajne w _innych_ technologiach webowych?
+
+* _boilerplate_
+* niespójność (_inconsistency_)
+* prymitywność (_complexity in userspace_)
+
+
+!SLIDE center
+
+![](throwout.jpg)
+
+
+!SLIDE bullets incremental
+
 # Filozofia Rails
 
 * podobnie jak w Ruby - uczynienie programowania przyjemnym
 * abstrakcja wyciągnięta z prawdziwych projektów
 * "Opinionated Software"
 * Konwencja Ponad Konfiguracją
+
+
+!SLIDE center
+
+![](fun_and_work.png)
+
 
 
 !SLIDE bullets incremental

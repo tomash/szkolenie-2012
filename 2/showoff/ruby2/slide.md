@@ -30,11 +30,12 @@
 ### Programowanie zorientowane na interfejs, a nie typ
 
 
-!SLIDE bullets commandline 
+!SLIDE bullets 
 
 # Enkapsulacja
 
-    @zmienne_instancyjne #domyślnie prywatne
+    zmienne instancji domyślnie prywatne
+
 ## konwencja
     
     def zm; @zm; end # getter
@@ -42,7 +43,7 @@
     
 ## makra
     
-    attr_reader, attr_writer, attr_accessor :nazwa
+    attr_reader, attr_writer, attr_accessor
     
     
 !SLIDE
@@ -51,4 +52,4 @@
 
 ## Każdą klasę można rozszerzyć, każdą metodę można nadpisać
 
-## ryzyko -- monkeypatching
+## ryzyko: monkeypatching

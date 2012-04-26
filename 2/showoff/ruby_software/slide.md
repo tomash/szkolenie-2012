@@ -29,3 +29,10 @@
 # Sinatra
 
 ## mikroframework do prostych aplikacji webowych
+
+
+!SLIDE
+
+# Backup
+
+## bezbolesne tworzenie, zarządzanie i uruchamianie przepisów backupu
