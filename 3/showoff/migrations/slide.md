@@ -19,13 +19,13 @@
 
 ## Podstawowe narzędzie Ruby On Rails do zarządzania ewolucją struktury bazy danych w miarę rozwoju aplikacji.
 
-!SLIDE smbullets 
+!SLIDE smbullets
 
 # Struktura migracji
 
-* skrypty Ruby, z klasą < ActiveRecord::Migration
-* Dwie metody: up i down
-* Podstawowe metody: create table, add_column, remove_column, rename_column
+* pliki Ruby, z klasą < ActiveRecord::Migration
+* Dwie metody: up i down, ew. change
+* Podstawowe metody: create\_table, add\_column, remove\_column
 * Podstawowe typy danych: :integer, :string, :text, :float, :decimal, :datetime, :boolean
 
 !SLIDE

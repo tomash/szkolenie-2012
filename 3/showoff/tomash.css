@@ -1,3 +1,14 @@
+div.slide {
+
+background-image: -webkit-gradient(
+  linear,
+  left bottom,
+  left top,
+  color-stop(0.11, rgb(255,255,255)),
+  color-stop(1, rgb(220,220,220))
+);
+}
+
 .title-slide img,
 .left-img img
 {
@@ -23,17 +34,4 @@ pre {
 .footnote {
   text-align: right;
   font-size: 2em;
-}
-
-ol {
-  list-style: decimal;
-}
-
-.numbered ol {
-  font-size: 2.5em;
-  list-style: decimal;
-}
-.numbered ol li {
-  text-align: left;
-  padding: 15px;
 }

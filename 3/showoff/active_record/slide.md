@@ -32,9 +32,9 @@
 # konwencje w AR
 
 * klasa o nazwie w CamelCase
-* tabela w bazie our_object*s*
+* tabela w bazie our\_object*s*
 * klucz główny: id
-* klucz w innych tabelach: object_id
+* klucz obcy: object\_id
 * **wszystko można nadpisać**
 
 
@@ -42,10 +42,10 @@
 
 # tworzenie i edycja rekordów
 
-* Klasa.new
+* Model.new
 * obj#attributes, obj#pole, obj#pole=
 * obj#save vs. obj#save!
-* Klasa.create
+* Model.create
 * obj#destroy
 
 
@@ -53,20 +53,20 @@
 
 # wyszukiwanie
 
-* .find - jedna metoda by wszystko odnaleźć
-* .find(id), find(:first), .find(:all), parametry
+* .find(id) - jeden wiersz
+* .where(warunki)
+* .where(warunki).order, method chains
 * dynamic finders: find_by_title
-* adaptive finders: find_or_create_by_title
 
 
-!SLIDE bullets
+!SLIDE bullets incremental
 
 # łatwe deklarowanie relacji
 
-* belongs_to :something
-* has_one oraz has_many
-* has_and_belongs_to_many
-* has_many :through
+* belongs\_to :something
+* has\_one, has\_many
+* has\_and\_belongs\_to\_many
+* has\_many :through
 
 
 !SLIDE bullets

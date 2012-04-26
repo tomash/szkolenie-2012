@@ -1,11 +1,11 @@
 !SLIDE
 
-# pomysły relacji w ToDo
+# pomysły relacji w Blogu
 
-## Priorytet
-### Priority has_many :tasks, Task belongs_to :priority
+## Komentarz
+### Post has\_many :comments, Comment belongs\_to :post
 
-## Miejsce
+## Tagi
 ### HABTM czy HMT?
 
 
