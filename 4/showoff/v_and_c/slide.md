@@ -1,18 +1,8 @@
 !SLIDE bullets
 
-# ActiveRecord a widok
-
-* form_for :model
-* brak walidacji: div.fieldWithErrors
-* error_messages_for :model
-* error_message_on :field
-
-
-!SLIDE
-
-# przerwa na hakowanie?
-
-### wyzwalacze i walidacje
+# Kontroler
+### Klasa dziedzicząca z ActionController
+### http://guides.rubyonrails.org/action_controller_overview.html
 
 
 !SLIDE bullets
@@ -28,8 +18,8 @@
 
 # Widok
 
-* zmienne @instancyjne kontrolera
-* szablony ERb
+* zmienne @instancyjne z kontrolera
+* HTML: szablony ERb, HAML, inne
 * ścieżki, layouty
 
 !SLIDE bullets
@@ -38,12 +28,24 @@
 
 * render
 * widoki cząstkowe (partial)
-* formularze: form_for i form_tag
+* formularze: form\_for i form\_tag
 
 
 !SLIDE bullets
 
-# o czym NIE powiedzieliśmy
+# ActiveRecord a widok
 
-* filtry w kontrolerach
-* helpery
+* form_for :model
+* brak walidacji: div.fieldWithErrors
+
+
+!SLIDE
+
+# Filtry
+
+## "callbacki dla kontrolerów"
+
+
+!SLIDE
+
+# Zabawy z filtrami
